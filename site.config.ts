@@ -20,7 +20,11 @@ export const site: SiteConfig = {
     eyebrow: "Homemade in Scarborough",
     headline: "Amma's Jaffna curries, from her pot to your plate",
     subhead: "Every curry is made by hand, the real Jaffna way, with Amma's roasted curry powder. Order by Instagram DM or on our flavrr page, with delivery across Scarborough and nearby areas.",
-    images: [{ src: "/images/amma.jpg", alt: "Jaffna Amma's Kitchen illustration of Amma stirring a clay pot of curry" }],
+    images: [
+      { src: "/images/post-7.jpg", alt: "Jaffna chicken curry, coconut sambol and pavakkai sambol from Amma's kitchen" },
+      { src: "/images/post-8.jpg", alt: "Vegetarian Jaffna spread of curries, dhal and rice" },
+      { src: "/images/amma.jpg", alt: "Amma stirring a clay pot of curry" },
+    ],
     secondaryCta: { label: "See the menu", href: "#menu" },
   },
 
@@ -60,6 +64,19 @@ export const site: SiteConfig = {
       },
     ],
     footnote: "Delivery across Scarborough and nearby areas is $6.",
+  },
+
+  gallery: {
+    title: "From Amma's kitchen",
+    items: [
+      { src: "/images/post-1.jpg", width: 1290, height: 2294, alt: "Amma checking the day's orders", caption: "Amma checking the day's orders" },
+      { src: "/images/post-4.jpg", width: 1122, height: 1402, alt: "Jaffna Mutton Curry, slow cooked with roasted spices", caption: "Jaffna Mutton Curry, slow cooked with roasted spices" },
+      { src: "/images/post-5.jpg", width: 1092, height: 1440, alt: "A full plate of rice and curries", caption: "A full plate of rice and curries" },
+      { src: "/images/post-6.jpg", width: 1120, height: 1424, alt: "Amma's chicken curry, a simple choice", caption: "Amma's chicken curry, a simple choice" },
+      { src: "/images/post-7.jpg", width: 1136, height: 1408, alt: "Chicken curry, coconut sambol and pavakkai sambol", caption: "Chicken curry, coconut sambol and pavakkai sambol" },
+      { src: "/images/post-8.jpg", width: 1136, height: 1408, alt: "Vegetarian Wednesday: eggplant curry, dhal and more", caption: "Vegetarian Wednesday: eggplant curry, dhal and more" },
+      { src: "/images/post-10.jpg", width: 1104, height: 1440, alt: "Curry bags ready for pickup", caption: "Curry bags ready for pickup" },
+    ],
   },
 
   instagram: {
